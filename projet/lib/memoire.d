@@ -1,0 +1,1 @@
+memoire.o: memoire.cpp

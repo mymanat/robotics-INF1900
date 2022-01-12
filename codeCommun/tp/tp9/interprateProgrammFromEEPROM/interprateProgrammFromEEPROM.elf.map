@@ -1,0 +1,6 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/10.2.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/crtatmega324pa.o (exit)
+/usr/lib/gcc/avr/10.2.0/../../../../avr/lib/avr5/libatmega324pa.a(eerd_byte.o)
+                              interprateProgrammFromEEPROM.o (eeprom_read_byte)

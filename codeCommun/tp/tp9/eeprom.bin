@@ -1,0 +1,74 @@
+mon 30;
+att 25;     # attendre 625 ms
+mon 16;
+att 25;     # attendre 625 ms
+mon 252;
+att 25;     # attendre 625 ms
+dbt;        # début
+dbc 1;      # la boucle s'exécutera 2 fois
+dal 1;      # allumer la DEL en vert
+att 1;      # attendre 25 ms
+det;        # éteindre la DEL
+fbc;        # boucler à l'instruction dbc précédente
+mon 142;    # pixel en haut gauche
+att 5;      # attendre 625 ms
+mon 135;    # pixel en haut droite
+att 5;      # attendre 625 ms
+mon 23;     # pixel en bas droite
+att 5;      # attendre 625 ms
+mon 30;     # pixel en bas gauche
+att 5;      # attendre 625 ms
+mof;
+mon 105;    # carre central
+att 10;     # attendre 625 ms
+mof;
+mav 255;    # avance
+mon 16;
+att 5;
+mon 32;
+att 5;
+mon 64;
+att 5;
+mon 128;
+att 5;      # avance fin
+mre 128;    # recule
+mon 128;
+mon 64;
+att 5;
+att 5;
+mon 32;
+att 5;
+mon 16;
+att 5;      # recule fin
+trg;        # tourne gauche
+mon 247;
+att 5;
+mon 251;
+att 5;
+mon 253;
+att 5;
+mon 254;
+att 5;      #fin tourne gauche
+trd;        # tourne droite
+mon 254;     
+att 5;
+mon 253;
+att 5;
+mon 251;
+att 5;
+mon 247;
+att 5;      # fin tourne droite
+mof;
+mar;
+dbc 1;      # la boucle s'exécutera 2 fois
+dal 200;    # allumer la DEL en rouge
+att 1;      # attendre 100 ms
+det;        # éteindre la DEL
+fbc;        # boucler à l'instruction dbc précédente
+fin;        # fin
+mon 30;
+att 50;     # attendre 1250 ms
+mon 16;
+att 50;     # attendre 1250 ms
+mon 252;
+att 50;     # attendre 1250 ms
